@@ -1,0 +1,110 @@
+/* Configuración global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #191919; /* Negro Carbón */
+    color: #000000; /* Blanco Plateado */
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #3d4a25; /* Verde Militar */
+    color: #C0C0C0; /* Blanco Plateado */
+    border-bottom: 4px solid #fc4b08; /* Naranja Neón */
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.regresar {
+    text-decoration: none;
+    color: white;
+    background-color: #fc4b08; /* Naranja Neón */
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.regresar:hover {
+    background-color: #Fe0000; /* Rojo Alerta */
+}
+
+/* Contenedor principal */
+.detalle-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Tarjetas de información */
+.info, .imagen, .videos {
+    background: #ACB2B4; /* Gris Acero */
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid #3d4a25; /* Verde Militar */
+}
+
+/* Imagen del personaje */
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #fc4b08; /* Naranja Neón */
+}
+
+/* Habilidades */
+.habilidades-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.habilidad {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #3d4a25; /* Verde Militar */
+    padding: 10px;
+    border-radius: 5px;
+    color: #C0C0C0; /* Blanco Plateado */
+    border-left: 5px solid #fc4b08; /* Naranja Neón */
+}
+
+.habilidad img {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Videos */
+.video {
+    background-color: #3d4a25; /* Verde Militar */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #fc4b08; /* Naranja Neón */
+    color: white;
+    font-weight: bold;
+}
+
+.video:hover {
+    background-color: #Fe0000; /* Rojo Alerta */
+    transition: 0.3s;
+}
+
+/* Títulos */
+h2, h3 {
+    color: #fc4b08; /* Naranja Neón */
+}
