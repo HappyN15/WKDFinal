@@ -1,0 +1,102 @@
+/* --- Estilos Generales --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d; /* Negro Carbón */
+    color: #C0C0C0; /* Blanco Plateado */
+}
+
+/* --- Encabezado --- */
+header {
+    background-color: #456705; /* Verde Militar */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #8efc08; /* Naranja Neón */
+}
+
+.logo {
+    width: 80px;
+}
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #C0C0C0; /* Blanco Plateado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fc4b08; /* Naranja Neón */
+}
+
+/* --- Sección Objetivo --- */
+.objetivo {
+    background-color: #3d4a25; /* Verde Militar */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* --- Grid de Kaijus y Robots --- */
+.bestiario {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.tarjeta {
+    background-color: #ACB2B4; /* Gris Acero */
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+    border: 3px solid #0c6210; /* Verde Militar */
+}
+
+.tarjeta:hover {
+    background-color: #357641; /* Verde Militar */
+    border-color: #fc4b08; /* Naranja Neón */
+    color: white;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tarjeta p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.Operación{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
