@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.PNG" alt="Logo" class="logo">
+        <h1 id="titulo">WDKF Robot Data 4</h1>
+        <h2 id="nombre">Mobile Suit Zaku</h2>
+        
+        <a href="javascript:history.back()"  class="regresar">Regresar al Bestiario</a>
+    </header>
+
+    <main class="detalle-container">
+        <!-- Columna de información -->
+        <section class="info">
+            <h2>Información del Personaje</h2>
+            <p><strong>Origen:</strong> Colonia Espacial (Principado de Zeon) <span id="origen"></span></p>
+            <p><strong>Altura:</strong> 17.5<span id="altura"></span> metros</p>
+            <p><strong>Peso (Sin Armamento y combustible):</strong> 56.2<span id="peso"></span> toneladas</p>
+            <p><strong>Peso (En total):</strong> 73.3<span id="peso"></span> toneladas</p>
+            <p><strong>Alianza:</strong> AMENAZA HOSTIL MECÁNICA CLASE BETA<span id="alianza"></span></p>
+            <h3>Historia</h3>
+            <p id="historia">
+                Los Mobile Suits Zaku, particularmente el modelo MS-06 Zaku II, son trajes de combate humanoides desarrollados y desplegados en masa por el Principado de Zeon durante la Guerra de Un Año. Estas unidades se han convertido en el símbolo bélico del autoritarismo galáctico y la opresión militarizada. La WKDF los considera los equivalentes mecánicos a los stormtroopers del régimen de Zeon: obedientes, implacables y peligrosamente comunes.
+                <br>
+                <br>
+                Desde su primera aparición durante una escaramuza en la órbita baja terrestre (Incidente de Dakar, 0095 UC), los Zaku fueron identificados por la WKDF como una amenaza de clase beta con alto potencial de escalada. Su despliegue fue vinculado directamente con ataques contra bases científicas neutrales y sabotajes a instalaciones de contención kaiju.
+                <br>
+                <br>
+                En respuesta, la WKDF estableció una alianza directa con la Federación de la Tierra, compartiendo inteligencia, tecnología de radar antimechas, y protocolos de combate urbano para contrarrestar incursiones Zaku en sectores bajo jurisdicción de la ONU.
+                <br>
+                <br>
+                Los Mobile Suit Zaku son la herramienta bélica más representativa de un régimen belicista y expansionista. La WKDF mantiene su posición firme contra el Principado de Zeon y continuará apoyando a la Federación de la Tierra para garantizar que los Zaku no se conviertan en una plaga mecánica sobre nuestro planeta. Su apariencia puede parecer estándar, pero su presencia representa un peligro constante para la seguridad global.
+                <br>
+                <br>
+                <strong>Estrategia de gestion contra Zaku</strong>
+                <br>
+                1.Neutralización no letal cuando sea posible para rescatar pilotos forzados o manipulados.
+                <br>
+                2.Desmantelamiento completo de unidades capturadas para prevenir replicación tecnológica.
+                <br>
+                3.Alerta máxima en presencia de insignias Zeon o señales de transmisores tipo Minovsky, si ven un Zaku rojo con una cresta roja, eviten entrar en combate con él.
+                <br>
+                4.Plan de contingencia: Formar alianza con Amuro Ray; piloto del Mobile Suit Gundam y el mejor guerrero de la federacion de la tierra para ayudar dando mejoras y reparaciones para el guerrero.
+            </p>
+        </section>
+
+        <!-- Columna central con la imagen principal -->
+        <section class="imagen">
+            <h2>Imagen del Sujeto</h2>
+            <img id="imagen" src="imagenes/robots/Zaku.png" alt="">
+            <h3>Habilidades</h3>
+            <div id="habilidades" class="habilidades-container">
+                <img id="imagen" src="imagenes/robots/Gun.png" alt="">
+                <h3>Ametralladora Zaku</h3>
+                <p>Es una ametralladora de 120 mm desarrollada para la serie MS-06 Zaku II. Fue el arma más producida para mobile suit.
+                    La gran mira óptica lateral se diseñó considerando la interferencia de partículas Minovsky. En lugar de mirar a través de la mira, se conectó por láser al monoojo del Zaku para mejorar la precisión de disparo. La conexión láser se mantenía mientras el rifle se colocaba frente a la cabeza del Zaku, y el rifle podía disparar incluso sin ella.
+                    <br>
+                    Su tambor tenía una capacidad de 145 rondas. Su cadencia de fuego era de 280 proyectiles por minuto, con un alcance efectivo de 4200 m en tierra al usar la mira láser. Podía disparar una gran variedad de proyectiles, incluyendo proyectiles APHE, proyectiles AP antibuque, proyectiles de carga hueca, proyectiles de humo, proyectiles de señales, proyectiles de bengalas y proyectiles trazadores.</p>
+                <img id="imagen" src="imagenes/robots/Bazooka.png" alt="">
+                <h3>A-P Zaku Bazooka</h3>
+                <p>Un arma de fuego portátil, de tipo proyectil. Su principal función es el combate antibuque y demuestra su potencia en ataques de impacto y fuga. También puede usarse contra mobile suit enemigos, pero es más difícil alcanzar un objetivo en constante movimiento. Muchas de las bazucas estaban cargadas con ojivas nucleares.</p>
+                <img id="imagen" src="imagenes/robots/Heathawk.png" alt="">
+                <h3>Heat Hawk</h3>
+                <p>El arma cuerpo a cuerpo predilecta de las fuerzas de Zeon. Esta hacha se sobrecalienta aprovechando la energía térmica del reactor del mobile suit. Su hoja sobrecalentada se usa para cortar otros mobile suit y vehículos como si fueran masilla.</p>
+            </div>
+        </section>
+
+        <!-- Columna de videos -->
+        <section class="videos">
+            <h2>Videos de Metraje Encontrado</h2>
+            <div class="video" id="video1"><video src="videos/Snipe.mp4" controls width="400"></video> <br> Video de Evidencia 1: Introduciendo al MS-05L Zaku/Tipo Francotirador</div>
+            <div class="video" id="video2"><video src="videos/Gundam vs Zaku.mp4" controls width="400"></video> <br> Video de Evidencia 2: Build Strike Gundam vs Zaku Amazing Style</div>
+            <div class="video" id="video1"><video src="videos/Zaku Ground.mp4" controls width="400"></video> <br> Video de Evidencia 3: Type 61 5+ MBTs vs. MS-06J Zaku IIs Tipo Tierra</div>
+            <div class="video" id="video1"><video src="videos/Char.mp4" controls width="400"></video> <br> Video de Evidencia 4: Amuro y el Gundam vs Char y su Zaku</div>
+        </section>
+    </main>
+</body>
+</html>
